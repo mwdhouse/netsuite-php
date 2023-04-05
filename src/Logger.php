@@ -19,7 +19,7 @@ class Logger implements LoggerInterface
     /**
      * @var string
      */
-    private $dateFormat;
+    private $dateFormatting;
 
     public const DEFAULT_LOG_FORMAT = 'netsuite-php-%date-%operation';
     public const DEFAULT_DATE_FORMAT = 'Ymd.His.u';
